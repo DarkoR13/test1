@@ -1,0 +1,28 @@
+table.a {
+    table-layout: auto;
+    width: 50%;
+    text-align:left;
+}
+
+table.b {
+    table-layout: fixed;
+    width: 100%;
+    text-aling: left;    
+}
+
+.div-text{
+    background: palegreen;
+    margin: 0px 50px 20px;
+}
+
+.div-table{
+    background: mistyrose;
+    padding: 25px;
+}
+
+.div-aufzaehlung{
+    background: magenta;
+    margin: 20px;
+    padding: 10px; 40px; 30px; 50px;
+}
+
