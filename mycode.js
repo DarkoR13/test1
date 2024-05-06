@@ -5,7 +5,7 @@ function test(){
     //Alternative:
     //p.setAttribute("id", "neuerAbsatz");
 
-    let t=document.createTextNode("Das ist der neue Absatz."); //erzeugt einen reinen Textknoten --> dieser TextNode ist das Kindelement von dem p-tag
+    let t=document.createTextNode("Dieser Absatz ist neu."); //erzeugt einen reinen Textknoten --> dieser TextNode ist das Kindelement von dem p-tag
     p.appendChild(t); //diese Methode hängt mir das Element dann immer danach an
     
     //Alternative
